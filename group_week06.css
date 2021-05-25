@@ -1,0 +1,48 @@
+@media(max-width:500px){
+
+  #flex_first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+
+  }
+
+  #flex_second {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+    #color{
+        display: flex;
+        flex-direction: column;
+        border-radius: 8px;
+          
+    }
+
+    #hair, #cookie{
+        width: 100%;
+        display: grid;
+        grid-area: 1;
+
+
+    }
+
+    .form-row{
+        display: grid;
+        grid-column: 1;
+        
+    }
+
+
+
+ #grid_second{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    grid-auto-rows: minmax(100px, auto);
+ }
+
+}
